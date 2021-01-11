@@ -1,0 +1,55 @@
+.container{
+    width:100%;
+    border:2px solid black;
+    height:544px;
+    display:flex; /* Initialize Container to be a flex */
+
+    /* Flexbox properties */
+
+    /* flex-direction: row; (By default it is always row) */
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+/* 
+    flex-wrap: nowrap; (By default it is always nowrap) */
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse; */
+/* 
+    justify-content:space-around; */
+
+    /* align-items:stretch; */
+
+
+}   
+
+.container-grid{
+    display: grid;
+    /* grid-template-columns:300px 200px auto; */
+    grid-template-columns:repeat(3,auto);
+    grid-gap:2rem;
+}
+.item{
+    border : 2px solid red;
+    margin:3px;
+    height:100px;
+    width:100px;
+    background-color:tomato;
+}
+
+#item1{
+
+    /* order:2; */
+
+    /* flex-grow:2;
+    flex-shrink:2; */
+}
+
+#item2{
+
+    /* flex-basis: 200px; */
+    /* Whenever flex-direction is row flex-basis = width
+        /* Whenever flex-direction is column flex-basis = height
+    /* order:3; */
+
+    /* align-self: flex-start; */
+}

@@ -1,0 +1,76 @@
+/* #paragraph{
+    background-color:yellowgreen;
+    height:50%;
+    width:50%;
+    min-height:500px;
+    min-width: 500px;
+} */
+
+/* body{
+    border:5px dotted black;
+} */
+
+/* .paragraph{
+    border:2px solid red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 5px 5px 15px 15px;
+} */
+
+/* Margin property -->> Collapsable */
+/* 
+.paragraph1{
+
+    border:2px solid red;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin: 10px 20px 20px 20px;
+}
+
+.paragraph2{
+
+    border:2px solid red;
+}
+
+.paragraph3{
+
+    border:2px solid red;
+} */
+
+/* a{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+a:active{
+    color:blue;
+}
+a:hover{
+    color:yellow;
+}
+a:visited{
+    color:purple;
+} */
+
+
+/* #cursor{
+
+    border:2px solid red;
+    cursor:copy;
+} */
+
+
+/* precedence */
+
+/*
+Inline Style
+ID
+class
+tagname !important
+*/

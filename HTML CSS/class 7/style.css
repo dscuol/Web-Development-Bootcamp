@@ -1,0 +1,131 @@
+/* CSS Displays
+
+1. Block
+div
+p
+h1-h6
+-->> Properties
+1. new line
+2. width and height
+
+2. inline-block -> no default method
+width and height can be given
+
+3. inline
+span
+li
+-->> Properties
+1. same line
+2. no width and height
+
+4. None
+remove any element from screen 
+
+*/
+/*
+#div1{
+    border:2px solid red;
+    width:300px;
+    height:100px;
+    display: none;
+    visibility: hidden;
+}
+
+#div2{
+    border:2px solid red;
+    display: inline;
+} */
+
+
+/* CSS Positions
+
+1. Static (Default)
+2. Relative
+3. Absolute
+4. Fixed
+
+
+1. left
+2. right
+3. top
+4. bottom
+
+*/
+
+/* #parent{  Positional Element
+    border:2px solid red;
+    width:500px;
+    padding:100px;
+    margin:25px 30px;
+    position: relative;
+} */
+
+
+/* #parent{  
+    border:2px solid red;
+    width:500px;
+    padding:100px;
+    margin:25px 30px;
+    position: relative;
+} 
+
+#div1{
+    background-color:red;
+    height:100px;
+    width:100px;
+    display:inline-block;
+
+}
+
+#div3{
+    background-color:blue;
+    height:100px;
+    width:100px;
+    display:inline-block;
+}
+
+#div2{
+    background-color:black;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    position: absolute;
+    top:20px;
+    left:20px;
+} */
+
+/* 
+#div1{
+    background-color:green;
+    width:70%;
+    height:100px;
+    float: left;
+}
+
+#div2{
+    background-color:purple;
+    width: 30%;
+    float: left;
+    height: 100px;
+} */
+
+
+/* @media screen and (max-width: 360px){
+    #div1{
+        width:50%;
+    }
+    #div2{
+        width:50%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    #div1{
+        width:60%;
+    }
+    #div2{
+        width:40%;
+    }
+
+} */

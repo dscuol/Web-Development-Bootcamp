@@ -1,0 +1,104 @@
+/* :root{
+    --primary-color:orange;
+    --secondary-color:gray;
+} */
+
+
+
+
+/* ul{
+    list-style-type: circle;
+    list-style-position:outside;
+    
+}
+li{
+    border:2px solid black;
+}
+
+ol{
+    list-style-type:none;
+} */
+/* 
+table{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+
+td{
+    border:2px solid black;
+    padding:5px;
+
+}
+
+th{
+    border:2px solid black;
+
+} */
+
+
+/* #div1{
+    background-color:var(--primary-color);
+    width: 600px;
+    height:200px;
+}
+
+#div2{
+    background-color:var(--secondary-color);
+    width: 600px;
+    height:200px;
+} */
+
+/* selector:class */
+
+/* li:nth-child(3n+0){
+    color:red;
+} */
+
+/* selector::property */
+/* 
+h1::before{
+    content:"added before ";
+}
+
+::selection{
+    color:red;
+    background-color:yellow;
+}
+
+p::first-line{
+    font-size: 40px;
+}
+p::first-letter{
+    font-size:40px;
+} */
+
+/* h1{
+    color:red;
+}
+
+h2{
+    color:green;
+}
+h3{
+    color:inherit;
+}
+h4{
+    color:initial;
+} */
+
+/* #div1{
+    background-color:yellow;
+    width:600px;
+    height:200px;
+}
+
+#div2{
+    background-color:green;
+    width:600px;
+    height:200px;
+    border:10px solid black;
+    padding: 25px;
+    box-sizing: border-box;
+}
+ */
+

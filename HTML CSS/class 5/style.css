@@ -1,0 +1,66 @@
+/* #text{
+    border : 2px solid red;
+    color: blue;
+    text-align:center;
+    direction:rtl;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    line-height: 20px;
+    text-indent: 10px;
+
+    letter-spacing: 1px;
+    word-spacing:20px;
+} */
+
+/* h1{
+
+    text-shadow: 10px 10px 5px red,-10px 10px 5px red;    
+} */
+
+/* #shadow{
+    border: 2px solid red;
+    background-color:yellowgreen;
+    padding:20px;
+    margin:25px;
+    box-shadow: 20px 20px 6px grey,-20px 20px 6px red;
+} */
+/* 
+#red{
+
+    width:500px;
+    background-color:red;
+    height:200px;
+    opacity:0.5;
+} */
+
+/* img{
+    filter:invert(2);
+} */
+
+/* Gradient -> Linear Gradient   Radial Gradient */
+
+/* #gradient{
+    height: 500px;
+    background-image:linear-gradient(160deg,red,green,blue);
+    background-image: radial-gradient(red,blue,green);
+} */
+/*
+#ovr{
+border:2px solid red;
+height:500px;
+overflow: auto;
+overflow-x:scroll;
+overflow-y: hidden; 
+}*/
+
+/* #ovr{
+    border:2px solid red;
+    width:250px;
+    overflow: auto;
+    resize: both;
+} */
+/* 
+textarea{
+    resize: none;
+} */

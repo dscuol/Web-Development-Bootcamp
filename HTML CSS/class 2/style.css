@@ -1,0 +1,12 @@
+p {
+    color:red;
+    color:blue;
+}
+
+.p2 p{
+    color:red;
+}
+
+.p1 p{
+    color:green;
+}

@@ -1,0 +1,42 @@
+/* selector {
+
+    property
+} */
+
+/* Preference
+ID
+Class
+Tag*/
+
+/* 
+p {
+
+} */
+
+/*
+CSS Colors
+RGB  (0-255,0-255,0,255)
+RGBA (0-255,0-255,0,255,alpha)
+HSL (0-360,0-100%,0-100%)
+HSLA (0-360,0-100%,0-100%,alpha)
+HEX (#rrggbb) (#000000) (#ffffff)
+*/
+
+/* #p1{
+background-color: yellow;
+background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80");
+background-repeat: contain;
+background-attachment: fixed;
+background-position: right;
+} */
+
+/* .underline{
+    text-decoration: underline;
+} */
+
+/* Borders in CSS */
+#p4{
+    border-style:solid dotted dashed none;
+    border-width: 5px 1px 2px 0px;
+    border-color: red blue purple black;
+}
