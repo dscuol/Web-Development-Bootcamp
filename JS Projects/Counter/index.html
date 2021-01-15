@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
+
+<head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
     <main>
-      <div class="container">
-        <h2>Counter</h2>
-        <span class="value">0</span>
-        <br />
-        <br />
-        <br />
-        <button class="btn increase">Increase</button>
-        <button class="btn decrease">Decrease</button>
-        <button class="btn reset">Reset</button>
-      </div>
+        <div class="container">
+            <h1>counter</h1>
+            <span id="value">0</span>
+            <div class="button-container">
+                <button class="btn decrease">decrease</button>
+                <button class="btn reset">reset</button>
+                <button class="btn increase">increase</button>
+            </div>
+        </div>
     </main>
+    <!-- javascript -->
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
