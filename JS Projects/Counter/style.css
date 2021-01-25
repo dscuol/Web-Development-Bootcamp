@@ -1,20 +1,15 @@
-h2 {
-  font-size: 50px;
+.container{
+    text-align: center;
 }
-span {
-  font-size: 50px;
+h1{
+   font-size: 100px; 
 }
-.container {
-  text-align: center;
+span{
+    font-size: 100px;
 }
-
-.btn {
-  background-color: blue;
-  color: white;
-  border: 2px solid white;
-  border-radius: 4px;
-}
-* {
-  padding: 0;
-  box-sizing: border-box;
+.btn{
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
