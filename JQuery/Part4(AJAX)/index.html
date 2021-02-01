@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JQuery Part 4</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <style>
+    header {
+      background: #333;
+      color: aliceblue;
+      text-align: center;
+      border-bottom: 4px #000 solid;
+      padding: 20px;
+    }
+
+    .myclass {
+      color: blue;
+      background-color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <header>Jquery Part 4</header>
+  <div id="container">
+    <h1 id="heading1">AJAX</h1>
+
+    <div id="page"></div>
+
+    <ul id="users"></ul>
+  </div>
+  <script>
+    $(document).ready(function () {
+
+      // $('#page').load('test.html', function (response, status, xhr) {
+      //   if (status == "success") {
+      //     alert("It went fine" + xhr.status)
+      //   }
+      //   else if (status == "error") {
+      //     alert("Error:" + xhr.status)
+      //   }
+      // })
+
+      // $.get('test.html', function (data) {
+      //   $('#page').html(data)
+      // })
+
+      // $.getJSON('users.json', function (data) {
+      //   $.each(data, function (i, user) {
+      //     $('#users').append('<li>' + user.firstName + '</li>')
+      //   })
+      // })
+
+    });
+  </script>
+</body>
+
+</html>
